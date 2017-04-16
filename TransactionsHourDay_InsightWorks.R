@@ -3,6 +3,7 @@ library(googleAnalyticsR)
 library(ggplot2) 
 
 # You must be logged into your Google Analytics account on your web browser
+# Documentation - https://michalbrys.gitbooks.io/r-google-analytics/content/chapter1/data_sources.html
 ga_auth()
 
 # Make sure to replace this with your viewId. 
