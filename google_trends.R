@@ -41,7 +41,7 @@ my_theme <- function() {
     theme(legend.title = element_blank())
 }
 
-# Run querry 
+# Run query 
 trends = gtrends(keywords, gprop =channel,geo=country, time = time)
 time_trend=trends$interest_over_time
 head(time_trend)
