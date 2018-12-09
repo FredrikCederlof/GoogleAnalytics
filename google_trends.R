@@ -13,7 +13,7 @@ library(writexl)
 Sys.setenv(TZ = "UTC")
 
 # search keywords
-keywords=c("liseberg","skidor","ving")
+keywords=c("liseberg","skidor","sista minuten")
 
 # set the geographic area: SE = Sweden
 country=c('SE')
