@@ -1,4 +1,7 @@
-# source- https://www.datacareer.ch/blog/analyzing-google-trends-with-r-retrieve-and-plot-with-gtrendsr/
+# Created by Fredrik Cederlöf, 9th of dec 2018
+# LinkedIn https://www.linkedin.com/in/fredrikcederlof/
+# Medium - https://medium.com/@fredrikcederlof/
+
 #install(packages)
 library(gtrendsR)
 library(reshape2)
@@ -62,9 +65,6 @@ time_trend$month[time_trend$month == "10"] <- "OKT"
 time_trend$month[time_trend$month == "11"] <- "NOV"
 time_trend$month[time_trend$month == "12"] <- "DEC"
 
-#time_trend1 <- time_trend
-#time_trend2 <- time_trend
-#df <- rbind(time_trend1, time_trend2)
 View(time_trend)
 
 # plot time_trend with geom_bar
