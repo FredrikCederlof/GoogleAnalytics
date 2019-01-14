@@ -93,7 +93,7 @@ library(stringi)
   View(dfTrutspilotReview)
 
 #Detect language
-  dfAllReviews$Market <- textcat(dfAllReviews$Review)
+  dfTrutspilotReview$Market <- textcat(dfTrutspilotReview$Review)
 
 #Add month and year
   dfTrutspilotReview$Month <- format(dfTrutspilotReview$Date, "%b, %y")
