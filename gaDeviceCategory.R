@@ -4,7 +4,7 @@ library(ggplot2)
 
 
 ga_auth()
-my_id <- 68895664
+my_id <- xxxxxxxx
 
 df <- google_analytics(my_id, 
                        date_range = c("2018-01-01", "2018-12-31"),
