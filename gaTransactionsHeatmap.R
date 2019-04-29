@@ -1,4 +1,6 @@
-## Insight Works AB, www.insightworks.se, fredrik@insightworks.se
+# Fredrik Cederlöf, Head of CX & Analytics Collector Bank
+# https://www.linkedin.com/in/fredrikcederlof/
+
 library(googleAnalyticsR)
 library(ggplot2) 
 
