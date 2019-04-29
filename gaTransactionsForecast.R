@@ -1,4 +1,6 @@
-#Blog post - https://www.insightworks.se/forecast-google-analytics-r-slack/
+# Fredrik Cederlöf, Head of CX & Analytics Collector Bank
+# https://www.linkedin.com/in/fredrikcederlof/
+# Article - https://www.insightworks.se/forecast-google-analytics-r-slack/
 
 library(googleAnalyticsR)
 library(ggplot2)
