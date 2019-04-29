@@ -1,4 +1,6 @@
-# Fredrik Cederlöf Collector Bank
+# Fredrik Cederlöf, Head of CX & Analytics Collector Bank
+# https://www.linkedin.com/in/fredrikcederlof/
+
 library(googleAnalyticsR)
 library(ggplot2)
 
