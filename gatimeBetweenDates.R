@@ -1,3 +1,6 @@
+# Fredrik Cederlöf, Head of CX & Analytics Collector Bank
+# https://www.linkedin.com/in/fredrikcederlof/
+
 # Blog post https://medium.com/@fredrikcederlof/analyzing-time-between-bookings-and-events-with-r-google-analytics-293f6c334d73
 
 #install(ggplot2)
