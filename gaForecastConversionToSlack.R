@@ -22,11 +22,11 @@ ga_auth()
 my_id <- 11111111
 
 # declare time intervall
-YearAgo <- Sys.Date() - 365
+OneYearAgo <- Sys.Date() - 365
 Yesterday <- Sys.Date() - 1
 
 df <- google_analytics(my_id, 
-               date_range = c(YearAgo, Yesterday),
+               date_range = c(OneYearAgo, Yesterday),
                metrics = c("goal9Completions", "users"),
                dimensions = c("date"),
                anti_sample = TRUE, 
