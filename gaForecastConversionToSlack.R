@@ -21,9 +21,13 @@ slackrSetup()
 ga_auth()
 my_id <- 11111111
 
+# declare time intervall
+YearAgo <- Sys.Date() - 365
+Yesterday <- Sys.Date() - 1
+
 df <- google_analytics(my_id, 
-               date_range = c("2018-01-01", "2018-12-31"),
-               metrics = c("goal6Completions", "users"),
+               date_range = c(YearAgo, Yesterday),
+               metrics = c("goal9Completions", "users"),
                dimensions = c("date"),
                anti_sample = TRUE, 
                max = -1) 
